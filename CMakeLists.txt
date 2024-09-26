@@ -3,6 +3,6 @@ project(huff)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(hzip src/main.cpp
+add_executable(huff src/main.cpp
         src/huffman.h
         src/huffman.cpp)
